@@ -1,3 +1,4 @@
+TR
 📝 Todo Uygulaması
 Bu basit ancak güçlü Todo Uygulaması, Laravel framework'ü ile geliştirilmiştir. Görevlerini organize etmene, takip etmene ve tamamlamana yardımcı olmak için tasarlandı. Gruplar ve listeler halinde düzenleme yeteneği ile projelerini veya günlük işlerini daha verimli yönetebilirsin!
 
@@ -14,22 +15,30 @@ Görev Düzenleme (Çok Yakında!): Mevcut görevlerinin ayrıntılarını günc
 Bu projeyi yerel ortamında çalıştırmak için aşağıdaki adımları izle:
 
 Projeyi Klonla:
+
 Bash
+
 git clone https://github.com/Cencirhub5/todo-app.git
-cd TODO-UYGULAMASI
+cd todo-app
 Composer Bağımlılıklarını Yükle:
+
 Bash
 
 composer install
-Ortam Dosyasını Oluştur: .env.example dosyasını kopyala ve adını .env olarak değiştir.
+Ortam Dosyasını Oluştur:
+.env.example dosyasını kopyala ve adını .env olarak değiştir.
+
 Bash
 
 cp .env.example .env
 Uygulama Anahtarını Oluştur:
+
 Bash
 
 php artisan key:generate
-Veritabanını Yapılandır: .env dosyasını aç ve aşağıdaki veritabanı ayarlarını kendi veritabanı bilgilerine göre düzenle (genellikle DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+Veritabanını Yapılandır:
+.env dosyasını aç ve aşağıdaki veritabanı ayarlarını kendi veritabanı bilgilerine göre düzenle (genellikle DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+
 Kod snippet'i
 
 DB_CONNECTION=mysql
@@ -38,19 +47,23 @@ DB_PORT=3306
 DB_DATABASE=laravel_todo # Kendi veritabanı adın
 DB_USERNAME=root         # Kendi veritabanı kullanıcı adın
 DB_PASSWORD=             # Kendi veritabanı şifren
-Veritabanı Migrationlarını Çalıştır: Bu komut, uygulamanın kullandığı tabloları veritabanında oluşturur.
+Veritabanı Migrationlarını Çalıştır:
+Bu komut, uygulamanın kullandığı tabloları veritabanında oluşturur.
+
 Bash
 
 php artisan migrate
 Geliştirme Sunucusunu Başlat:
+
 Bash
 
 php artisan serve
 Tarayıcında http://127.0.0.1:8000/tasks adresini ziyaret ederek uygulamayı görüntüleyebilirsin.
+
 🤝 Katkıda Bulunma
 Geliştirmeye katkıda bulunmak istersen, lütfen bir "pull request" açmaktan çekinme! Her türlü katkı memnuniyetle karşılanır.
 
-
+EN
 📝 Todo Application
 This simple yet powerful Todo Application is developed with the Laravel framework. It's designed to help you organize, track, and complete your tasks. With the ability to organize into groups and lists, you can manage your projects or daily tasks more efficiently!
 
@@ -67,23 +80,30 @@ Edit Tasks (Coming Soon!): Update the details of your existing tasks.
 To run this project on your local machine, follow these steps:
 
 Clone the Repository:
+
 Bash
 
 git clone https://github.com/Cencirhub5/todo-app.git
-cd TODO-APP
+cd todo-app
 Install Composer Dependencies:
+
 Bash
 
 composer install
-Create Environment File: Copy the .env.example file and rename it to .env.
+Create Environment File:
+Copy the .env.example file and rename it to .env.
+
 Bash
 
 cp .env.example .env
 Generate Application Key:
+
 Bash
 
 php artisan key:generate
-Configure Database: Open the .env file and update the database settings with your own database credentials (typically DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+Configure Database:
+Open the .env file and update the database settings with your own database credentials (typically DB_DATABASE, DB_USERNAME, DB_PASSWORD).
+
 Kod snippet'i
 
 DB_CONNECTION=mysql
@@ -92,14 +112,18 @@ DB_PORT=3306
 DB_DATABASE=laravel_todo # Your database name
 DB_USERNAME=root         # Your database username
 DB_PASSWORD=             # Your database password
-Run Database Migrations: This command will create the necessary tables for the application in your database.
+Run Database Migrations:
+This command will create the necessary tables for the application in your database.
+
 Bash
 
 php artisan migrate
 Start the Development Server:
+
 Bash
 
 php artisan serve
 Visit http://127.0.0.1:8000/tasks in your browser to view the application.
+
 🤝 Contributing
 If you'd like to contribute to the development, feel free to open a pull request! All contributions are welcome.
