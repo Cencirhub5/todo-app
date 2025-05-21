@@ -15,7 +15,6 @@ Bu projeyi yerel ortamında çalıştırmak için aşağıdaki adımları izle:
 
 Projeyi Klonla:
 Bash
-https://github.com/Cencirhub5/todo-app
 git clone https://github.com/Cencirhub5/todo-app.git
 cd TODO-UYGULAMASI
 Composer Bağımlılıklarını Yükle:
